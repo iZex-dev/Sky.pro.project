@@ -14,19 +14,28 @@
 </h1>
 
 1. Клонируйте репозиторий:
-
-
+```
+git@github.com:iZex-dev/Sky.pro.project.git
+```
 2. Установите зависимости:
+```
 poetry install
+```
 
 3. Создайте базу данных и выполните миграции:
+```
 python manage.py migrate
+```
 
 4. Запустите локальный сервер:
+```
 python manage.py runserver
+```
 
 5. Активировать окружение:
+```
 poetry shell
+```
 
 ## 
 <h1>
